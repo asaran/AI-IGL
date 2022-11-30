@@ -1,0 +1,5 @@
+.DS_Store
+fMRI/.DS_Store
+mnist/__pycache__/*
+fMRI/__pycache__/*
+mnist/data/*
