@@ -38,13 +38,13 @@ cd fMRI
 python generate_signal_pattern.py
 ```
 
-Generate data for 50 different seeds
+Generate data for 50 different seeds. We also directly provide all the data we used in `fMRI/data/`.
 ```
 python generate_igl_data.py --noise_weight=0.05 --seed=1
 python generate_test_data.py --noise_weight=0.05 --seed=1
 ```
 
-Test Full CI IGL and AI-IGL
+Test Full CI IGL and AI-IGL.
 ```
 python combine_data.py 
 python fmri.py --noise_weight=0.05 --optimizer=adam --ifprint=True --old_igl
