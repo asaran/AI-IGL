@@ -31,7 +31,7 @@ jupyter nbconvert --to notebook --execute openml.ipynb --output openml.ipynb
 ## fMRI Simulation
 ![alt text](imgs/bci.png "BCI experiment for Number-guessing Task")
 
-The code for this section has been tested with brainiak, statsmodels 0.10.2. Download the [human fMRI data(https://dataspace.princeton.edu/handle/88435/dsp01dn39x4181) and save it in the `fMRI/data/` folder.
+The code for this section has been tested with brainiak, statsmodels 0.10.2. Download the [human fMRI data](https://dataspace.princeton.edu/handle/88435/dsp01dn39x4181) and save it in the `fMRI/data/` folder.
 
 ```
 cd fMRI
