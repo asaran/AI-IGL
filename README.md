@@ -31,14 +31,14 @@ jupyter nbconvert --to notebook --execute openml.ipynb --output openml.ipynb
 ## fMRI Simulation
 ![alt text](imgs/bci.png "BCI experiment for Number-guessing Task")
 
-The code for this section has been tested with brainiak, statsmodels 0.10.2. Download the [human fMRI data](https://dataspace.princeton.edu/handle/88435/dsp01dn39x4181) and save it in the `fMRI/data/` folder.
+The code for this section has been tested with brainiak, statsmodels 0.10.2. Download the [human fMRI data](https://dataspace.princeton.edu/handle/88435/dsp01dn39x4181) and save it in the `fMRI/data/` folder. We also directly provide all the data we used in `fMRI/data/`.
 
 ```
 cd fMRI
 python generate_signal_pattern.py
 ```
 
-Generate data for 50 different seeds. We also directly provide all the data we used in `fMRI/data/`.
+Generate data for 50 different seeds. We also directly provide all the data we used in `fMRI/data/` so if you choose, you can skip this step.
 ```
 python generate_igl_data.py --noise_weight=0.05 --seed=1
 python generate_test_data.py --noise_weight=0.05 --seed=1
